@@ -460,10 +460,10 @@ h2 {
     line-height: 32px;
 }
 
-#testimonials h2 {
-    font-size: 22px;
-    line-height: 36px;
+.hidden {
+    display: none;
 }
+
 
 p {
     text-align: center;
@@ -517,6 +517,10 @@ p {
 
 @media (min-width: 991.8px) {
     #product-1{
+        display: none;
+    }
+
+    .hidden-desk {
         display: none;
     }
 }
